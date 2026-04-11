@@ -1,0 +1,1 @@
+To run execute uv run myInvestorActualImporter/main.py Path/to/file.csv
