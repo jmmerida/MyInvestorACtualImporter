@@ -1,0 +1,20 @@
+{
+    "name": "Debian",
+    "image": "mcr.microsoft.com/devcontainers/base:trixie",
+    "features": {
+        "ghcr.io/devcontainers/features/python:1": {
+            "version": "3.13"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.black-formatter",
+                "ms-python.flake8",
+                "donjayamanne.python-extension-pack",
+                "EditorConfig.EditorConfig"
+            ]
+        }
+    },
+    "postCreateCommand": "./.devcontainer/postCreateCommands.sh"
+}
