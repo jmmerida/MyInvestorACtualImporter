@@ -1,1 +1,7 @@
 *.csv
+node_modules/
+.env
+.env.*
+!.env.example
+.actual-backups/
+__pycache__/
